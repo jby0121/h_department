@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+
+/*poutlet*/
+.poutlet {}
+.poutlet .content_inner {width: 1100px; font-size: 14px; line-height: 24px; padding-bottom: 100px;}
+
+.poutlet .content_inner .branch_header {background-color: #f4f5f5; padding: 100px 56px 56px; position: relative; margin-top: 80px;}
+.poutlet .content_inner > div > h3 {text-indent: -9999px;}
+.poutlet .content_inner .branch_header > h2 {width: 640px; height: 48px; text-indent: -9999px;}
+.poutlet .content_inner .branch_header > p.slogan {font-size: 16px; position: absolute; top: 60px; left: 56px; color: #000000;}
+.poutlet .content_inner .branch_header > ul.branch_info {position: absolute; top: 63px; left: 560px; width: 475px;}
+.poutlet .content_inner .branch_header > ul.branch_info > li {color: #242424; overflow: hidden; position: relative;}
+.poutlet .content_inner .branch_header > ul.branch_info > li > span {float: left;}
+.poutlet .content_inner .branch_header > ul.branch_info > li > span.head {margin-right: 25px;}
+.poutlet .content_inner .branch_header > ul.branch_info > li > span.text {width: 268px;}
+.poutlet .content_inner .branch_header > ul.branch_info > li > a.btn_map {text-decoration: none; position: absolute; top: 8px; right: 0; display: block; border: 1px solid #000000; color: #000000; font-size: 12px; width: 108px; line-height: 28px; text-align: center;}
+.poutlet .content_inner .branch_header > ul.branch_info > li > a.btn_map:hover {background-color: #000000; color: white;}
+
+.poutlet .content_inner .shopping_event {background-color: #f5f6f6; margin-top: 40px; padding: 50px 40px 70px; position: relative;}
+.poutlet .content_inner .shopping_event > h3 {display: block; height: 40px;}
+.poutlet .content_inner .shopping_event > ul:after {content: ''; display: block; clear: both;}
+.poutlet .content_inner .shopping_event > ul > li {float: left; padding-bottom: 4px; margin-top: 40px; margin-left: 20px;}
+.poutlet .content_inner .shopping_event > ul > li > a {display: block;}
+.poutlet .content_inner .shopping_event > ul > li > a > img {width: 313px; height: 201px; margin-bottom: 16px;}
+.poutlet .content_inner .shopping_event > ul > li > a > p {background-color: white; padding: 13px 0 11px 20px; margin-left: 52px; font-weight: bold; color: #000000;}
+.poutlet .content_inner .shopping_event > a.btn_see_all {position: absolute; top: 68px; right:60px; color: #000000;}
+
+.poutlet .content_inner .outlet_brands {margin-top: 48px; margin-bottom: 100px;}
+.poutlet .content_inner .outlet_brands:before {content: ''; display: block; position: absolute; top: 1258px; height: 220px; width: 100%; background-color: white; left: 0;}
+.poutlet .content_inner .outlet_brands > h3 {display: block; height: 40px; margin-bottom: 20px;}
+.poutlet .content_inner .outlet_brands > a { display: block; position: relative; z-index: 20;}
+
+.poutlet .content_inner .special_items > h3 {line-height: 0;}                  
+.poutlet .content_inner .special_items .bx-wrapper {margin:0; border: none; box-shadow: none;}                  
+.poutlet .content_inner .special_items .bx-wrapper .bx-controls-direction {}
+.poutlet .content_inner .special_items .bx-wrapper .bx-controls-direction > a {margin-top: -24px; width: 48px; height: 48px; background: url('../images/bg_panels.png') no-repeat -48px -192px;}
+.poutlet .content_inner .special_items .bx-wrapper .bx-controls-direction > .bx-prev{left: auto; right: 0;}
+.poutlet .content_inner .special_items .bx-wrapper .bx-controls-direction > .bx-next{background-position: -48px -240px; right: -48px;}
+.poutlet .content_inner .special_items .bx-wrapper .bx-controls .bx-pager {width: auto; padding: 0; top: 30px; right: 44px;}
+.poutlet .content_inner .special_items .bx-wrapper .bx-controls .bx-pager > .bx-pager-item {}
+.poutlet .content_inner .special_items .bx-wrapper .bx-controls .bx-pager > .bx-pager-item > a.bx-pager-link{width: 24px; height: 24px; margin: 0; background: url('../images/bg_bxslider_controls 2.png')no-repeat 0 0;}
+.poutlet .content_inner .special_items .bx-wrapper .bx-controls .bx-pager > .bx-pager-item > a.bx-pager-link.active{background-position: -24px 0;}
+.poutlet .content_inner .special_items .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {width: auto; bottom: auto; top: 30px; right: 20px;}
+.poutlet .content_inner .special_items .bx-wrapper .bx-controls-auto .bx-controls-auto-item > a {width: 24px; height: 24px; margin: 0; background: url('../images/bg_bxslider_controls 2.png')no-repeat 0 -48px; position: absolute; top: 0; right: 0;}
+.poutlet .content_inner .special_items .bx-wrapper .bx-controls-auto .bx-controls-auto-item > a.bx-start {background-position: 0 -24px;}
+.poutlet .content_inner .special_items .bx-wrapper .bx-controls-auto .bx-controls-auto-item > a.bx-start.active {display: none;}
+.poutlet .content_inner .special_items .bx-wrapper .bx-controls-auto .bx-controls-auto-item > a.bx-stop.active {display: none;}
+
+.poutlet .branch_more {display: none; position: fixed; top: 0; z-index: 600; width: 100%; padding: 32px 0 28px; background-color: rgba(102,102,102,0.95);}
+.poutlet .branch_more > h3 {line-height: 32px; font-size: 24px; color: #ffffff; text-align: center;}
+.poutlet .branch_more > ul {overflow: hidden; margin: 29px auto 0; width: 895px;}
+.poutlet .branch_more > ul > li {float: left;}
+.poutlet .branch_more > ul > li + li {margin-left: 20px;}
+.poutlet .branch_more > ul > li > a {font-size: 14px; line-height: 24px; color: #ffffff;}
+.poutlet .branch_more > ul > li > a:hover {text-decoration: underline;}
+.poutlet .branch_more .ch_talk {position: absolute; bottom: 0; left: 8px;}
+.poutlet .branch_more .ch_talk > a {text-indent: -9999px; display: block; width: 80px; height: 80px; background: url('../images/ch_talk_btn.png')no-repeat 0 0;}
+
+ 
+/*songdo*/
+.poutlet {background-image: url('../images/20180517011016916.png'); background-repeat: no-repeat; background-attachment: fixed; background-position: 50% 0;}
+.poutlet.songdo .content_inner .branch_header > h2 {background: url('../images/branch_intro_title.png') no-repeat;}
+.poutlet.songdo .content_inner .shopping_event > h3 {background: url(../images/branch_intro_h3.png) no-repeat center 0;}
+.poutlet.songdo .content_inner .outlet_brands > h3 {background: url(../images/branch_intro_h3.png) no-repeat center -40px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
