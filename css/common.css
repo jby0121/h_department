@@ -196,11 +196,11 @@ strong {font-weight: normal;}
 
 /*shop, academy, channel 공통*/
 .main .content_inner {margin-top: 579px;}
-.main .content_inner > div > h3 {text-indent: -99999px;}
+.main .content_inner > div > h2 {text-indent: -99999px;}
 .main .content_inner > div > ul > li > a {text-indent: -99999px; display: block;}
 /*shop_event*/
 .main .content_inner .shop_event {padding-top: 90px;}
-.main .content_inner .shop_event > h3 {height: 27px; width: 339px; background: url('../images/tit_shopping-event.png') no-repeat 0 0; margin: 0 auto;}
+.main .content_inner .shop_event > h2 {height: 27px; width: 339px; background: url('../images/tit_shopping-event.png') no-repeat 0 0; margin: 0 auto;}
 .main .content_inner .shop_event > ul {margin-top: 40px;}
 .main .content_inner .shop_event > ul:after {content: ''; display: block; clear: both;}
 .main .content_inner .shop_event > ul > li {float: left; position: relative;}
@@ -216,12 +216,12 @@ strong {font-weight: normal;}
 .main .content_inner .shop_event > ul > li.item_3 > a:hover {background: url('../images/img_shopping-event_03_on.png')no-repeat 0 0;}
 /*academy*/
 .main .content_inner .academy {padding-top: 79px;}
-.main .content_inner .academy > h3 {height: 26px; width: 174px; background: url('../images/tit_academy.png') no-repeat 0 0; margin: 0 auto;}
+.main .content_inner .academy > h2 {height: 26px; width: 174px; background: url('../images/tit_academy.png') no-repeat 0 0; margin: 0 auto;}
 .main .content_inner .academy > a {margin-top: 45px; text-indent: -99999px; display: block;  height: 240px; background: url('../images/img_academy_01_off.png')no-repeat 0 0;}
 .main .content_inner .academy > a:hover {background: url('../images/img_academy_01_on.png')no-repeat 0 0;}
 /*channel*/
 .main .content_inner .channel {padding-top: 116px;}
-.main .content_inner .channel > h3 {height: 26px; width: 163px; background: url('../images/tit_channel.png') no-repeat 0 0; margin: 0 auto;}
+.main .content_inner .channel > h2 {height: 26px; width: 163px; background: url('../images/tit_channel.png') no-repeat 0 0; margin: 0 auto;}
 .main .content_inner .channel > ul:after {content: ''; display: block; clear: both;}
 .main .content_inner .channel > ul > li {float: left;}
 .main .content_inner .channel > ul > li.item_1 {margin-top: -6px;}
