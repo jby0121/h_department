@@ -28,7 +28,7 @@ window.onload = function(){
     var shadow = document.createElement("div");
     
     function openWork (e) {   
-        this.classList.add("active");
+        e.currentTarget.classList.add("active");
 
         targetDiv.appendChild(shadow);
         shadow.style.position = "absolute";
@@ -40,7 +40,7 @@ window.onload = function(){
         shadow.style.zIndex = "400";
     }
     function closeWork (e) {
-        this.classList.remove("active");
+        e.currentTarget.classList.remove("active");
         targetDiv.removeChild(shadow);
     }
     //메뉴 end//
@@ -68,7 +68,6 @@ window.onload = function(){
     document.addEventListener("scroll", scrollWork);
     function scrollWork () {
         var scrollHight = htmlElem.scrollTop
-        console.log(scrollHight);
         if (scrollHight > 3) {
                 shopMallList.style.display = "none";
         } else if (scrollHight < 3) {
